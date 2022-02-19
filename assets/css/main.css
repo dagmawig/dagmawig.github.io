@@ -1730,6 +1730,8 @@ input, select, textarea {
 /* Sections/Article */
 		article, #resume > .container {
 			border: grey solid 1px;
+			border-radius: 0.35em;
+			overflow: hidden
 		}
 	section, article {
 		margin-bottom: 3em;
@@ -2672,4 +2674,9 @@ input, select, textarea {
 	}
 	#resume ul {
 		list-style-type: circle;
+	}
+	#portfolio  .container{
+		border-radius: 15px;
+		padding: 10px;
+		background-color: rgb(211, 205, 205);
 	}
